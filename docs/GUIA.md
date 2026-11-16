@@ -4,7 +4,7 @@ La web tiene dos páginas:
 
 | Página | Dirección | Archivos |
 |---|---|---|
-| Kodex Studio (portada) | https://ikeruuu.github.io/kodex_studio/ | `index.html`, `css/studio.css`, `js/studio-data.js`, `js/studio.js` |
+| Kernpix Studio (portada) | https://ikeruuu.github.io/kodex_studio/ | `index.html`, `css/studio.css`, `js/studio-data.js`, `js/studio.js` |
 | Sobre Iker | https://ikeruuu.github.io/kodex_studio/iker/ | `iker/index.html`, `css/site.css`, `js/data.js`, `js/site.js` |
 
 Lo que cambia a menudo está en los dos archivos de datos: `js/studio-data.js` (planes,
@@ -12,7 +12,7 @@ precios y textos del estudio) y `js/data.js` (proyectos y fotos de Iker). No hac
 instalar nada: se edita el archivo, se sube a GitHub y la web se actualiza sola en uno
 o dos minutos.
 
-## 0. Cambiar planes, precios y plazos de Kodex Studio
+## 0. Cambiar planes, precios y plazos de Kernpix Studio
 
 Todo está en `js/studio-data.js`:
 
@@ -87,7 +87,7 @@ Para quitar un proyecto, borra su bloque entero.
 
 ## 3. Cambiar textos fijos o el CV
 
-Los textos fijos de Kodex Studio están en `index.html` y los de la página de Iker, con
+Los textos fijos de Kernpix Studio están en `index.html` y los de la página de Iker, con
 el CV, en `iker/index.html`. Cada texto aparece dos veces seguidas:
 
 ```html
@@ -101,7 +101,7 @@ Cambia siempre las dos. El CV es el bloque `<section id="cv">`: cada puesto es u
 
 Cada página tiene sus variables al principio de su hoja de estilos. En `css/site.css`
 (página de Iker): `--paper` (fondo claro), `--ink` (texto), `--code` (azul), `--film`
-(ámbar), `--night` (fondo oscuro). En `css/studio.css` (Kodex Studio): `--bg` (fondo),
+(ámbar), `--night` (fondo oscuro). En `css/studio.css` (Kernpix Studio): `--bg` (fondo),
 `--text`, `--amber` y `--blue`. Cambiar una variable cambia toda la página. Los colores de la escena 3D están al principio de
 `js/scene.js`, en el objeto `C`.
 
@@ -111,7 +111,7 @@ Cada página tiene sus variables al principio de su hoja de estilos. En `css/sit
 python -m http.server 8000
 ```
 
-y abre `http://localhost:8000` (Kodex Studio) o `http://localhost:8000/iker/` (Sobre
+y abre `http://localhost:8000` (Kernpix Studio) o `http://localhost:8000/iker/` (Sobre
 Iker). Ábrela siempre así y no con doble clic en el archivo: el paso de una página a
 otra necesita el servidor. Para ver la versión de móvil, en Chrome: F12 y el icono
 del teléfono.
@@ -132,7 +132,7 @@ Deploy from a branch → `main` y `/ (root)` → Save**.
 
 ## 7. Dominio propio (opcional)
 
-1. Compra el dominio (por ejemplo `kodexstudio.dev`).
+1. Compra el dominio (por ejemplo `kernpixstudio.com`).
 2. En GitHub: **Settings → Pages → Custom domain**, escribe el dominio y guarda.
 3. En tu proveedor de dominio, crea el registro DNS que indique GitHub.
 4. En `index.html` y en `iker/index.html`, cambia la dirección en `canonical`, `og:url`

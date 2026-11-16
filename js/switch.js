@@ -1,4 +1,4 @@
-/* Full-screen wipe when moving between the Kodex Studio page and Iker's page.
+/* Full-screen wipe when moving between the Kernpix Studio page and Iker's page.
    Links marked with data-switch play it; the other page finishes it on arrival. */
 (function(){
   const w=document.querySelector('.wipe'), root=document.documentElement; if(!w)return;

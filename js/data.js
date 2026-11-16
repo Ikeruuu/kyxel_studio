@@ -55,7 +55,7 @@ const PROJECTS=[
   more:{en:'A modified pre-trained CNN running on an NPU, plus a business plan, budget and web and app design.',es:'Una CNN preentrenada y modificada sobre una NPU, con plan de negocio, presupuesto y diseño web y de app.'},
   tags:['Computer vision','NPU','Business plan'],links:[]},
  {id:'client',cat:['web'],big:1,award:0,title:'Client work',titleEs:'Trabajo para clientes',
-  ev:{en:'Kodex Studio',es:'Kodex Studio'},
+  ev:{en:'Kernpix Studio',es:'Kernpix Studio'},
   d:{en:'A Laravel setup with SageBridge to manage a database through AI, and dynamic websites with payment gateways.',es:'Un montaje en Laravel con SageBridge para gestionar una base de datos con IA y webs dinámicas con pasarelas de pago.'},
   more:{en:'Client projects are private; ask me for a walkthrough.',es:'Los proyectos de clientes son privados; pídeme una demostración.'},
   tags:['Laravel','AI','Payments'],links:[]}

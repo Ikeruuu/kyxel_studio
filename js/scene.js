@@ -1,5 +1,5 @@
-/* The 3D background (three.js): a ridgeline terrain and the extruded Kodex K.
-   It only renders while the hero or the Kodex Studio section is on screen, and the
+/* The 3D background (three.js): a ridgeline terrain and the extruded Kernpix K.
+   It only renders while the hero or the Kernpix Studio section is on screen, and the
    page works without it if WebGL or three.js is unavailable. */
 /* ---------- 3D scene: ridgeline terrain + extruded K ---------- */
 (function(){
@@ -51,7 +51,7 @@
   const p2=new THREE.PointLight(0xE8A33A,1.4,30); p2.position.set(7,1,4); scene.add(p2);
 
   const hero=$('.hero'), studio=$('[data-scene-b]'), kHero=$('#kHero'), kStudio=$('#kStudio');
-  const NIGHT=document.documentElement.dataset.scene==='studio'; /* the Kodex Studio page is always dark */
+  const NIGHT=document.documentElement.dataset.scene==='studio'; /* the Kernpix Studio page is always dark */
   const ray=new THREE.Vector3(), fwd=new THREE.Vector3();
   /* put the K where a DOM box is: cast a ray through the box centre onto the z=0 plane */
   function anchor(el){
