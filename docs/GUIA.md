@@ -146,7 +146,15 @@ descripción que hay en la cabecera de la página enlazada (`index.html` o
 sigue enseñando la antigua, pasa el enlace por el
 [Post Inspector](https://www.linkedin.com/post-inspector/) para que la vuelva a leer.
 
-## 9. Si algo no se ve
+## 9. Ver las visitas
+
+Las dos páginas llevan el contador de Cloudflare Web Analytics (la última línea antes de
+`</body>` en `index.html` y en `iker/index.html`). No usa cookies. Las visitas se ven
+entrando en la cuenta de Cloudflare, en **Analytics & Logs → Web Analytics**, sitio
+`ikeruuu.github.io`. Si se añade una página nueva a la web, hay que copiarle esa misma
+línea para que cuente.
+
+## 10. Si algo no se ve
 
 | Qué pasa | Qué mirar |
 |---|---|
