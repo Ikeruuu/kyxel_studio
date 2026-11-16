@@ -7,8 +7,8 @@ Two pages that share one design and one repository:
 - **About Iker** (`/iker/`): the projects Iker Argüelles has built, his photography, his
   competition results and his CV.
 
-**Live site:** https://ikeruuu.github.io/kodex_studio/
-**About Iker:** https://ikeruuu.github.io/kodex_studio/iker/
+**Live site:** https://ikeruuu.github.io/kernpix_studio/
+**About Iker:** https://ikeruuu.github.io/kernpix_studio/iker/
 
 ![Preview of the site](assets/og.png)
 

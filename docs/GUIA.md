@@ -4,8 +4,8 @@ La web tiene dos páginas:
 
 | Página | Dirección | Archivos |
 |---|---|---|
-| Kernpix Studio (portada) | https://ikeruuu.github.io/kodex_studio/ | `index.html`, `css/studio.css`, `js/studio-data.js`, `js/studio.js` |
-| Sobre Iker | https://ikeruuu.github.io/kodex_studio/iker/ | `iker/index.html`, `css/site.css`, `js/data.js`, `js/site.js` |
+| Kernpix Studio (portada) | https://ikeruuu.github.io/kernpix_studio/ | `index.html`, `css/studio.css`, `js/studio-data.js`, `js/studio.js` |
+| Sobre Iker | https://ikeruuu.github.io/kernpix_studio/iker/ | `iker/index.html`, `css/site.css`, `js/data.js`, `js/site.js` |
 
 Lo que cambia a menudo está en los dos archivos de datos: `js/studio-data.js` (planes,
 precios y textos del estudio) y `js/data.js` (proyectos y fotos de Iker). No hace falta
@@ -125,7 +125,7 @@ git push
 ```
 
 GitHub Pages publica lo que haya en la rama `main`. Las direcciones son
-https://ikeruuu.github.io/kodex_studio/ y https://ikeruuu.github.io/kodex_studio/iker/
+https://ikeruuu.github.io/kernpix_studio/ y https://ikeruuu.github.io/kernpix_studio/iker/
 
 Si alguna vez hay que activarlo de nuevo: en GitHub, **Settings → Pages → Source:
 Deploy from a branch → `main` y `/ (root)` → Save**.
