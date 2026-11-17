@@ -1,4 +1,4 @@
-/* Behaviour of the Kernpix Studio page: loading screen, language, menu, the five demos, the request tracer, plans and scroll effects.
+/* Behaviour of the Kyxel Studio page: loading screen, language, menu, the five demos, the request tracer, plans and scroll effects.
    Reads its content from js/studio-data.js. */
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const REDUCE=matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -10,7 +10,7 @@ let lang='en';
 try{lang=localStorage.getItem('lang')||((navigator.language||'').startsWith('es')?'es':'en')}catch(e){lang=(navigator.language||'').startsWith('es')?'es':'en'}
 const T=o=>typeof o==='string'?o:o[lang];
 const money=n=>lang==='es'?n.toLocaleString('es-ES')+' €':'€'+n.toLocaleString('en-GB');
-const mailto=s=>`mailto:${MAIL}?subject=${encodeURIComponent('Kernpix Studio · '+s)}`;
+const mailto=s=>`mailto:${MAIL}?subject=${encodeURIComponent('Kyxel Studio · '+s)}`;
 
 /* ---------- static blocks rendered from data ---------- */
 function renderLayers(){

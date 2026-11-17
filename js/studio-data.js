@@ -1,4 +1,4 @@
-/* Content of the Kernpix Studio page. Prices, plans, steps and questions live here.
+/* Content of the Kyxel Studio page. Prices, plans, steps and questions live here.
    Every text has an English (en) and a Spanish (es) version. */
 const PLANS=[
  {id:'presencia',name:{en:'Presence',es:'Presencia'},price:490,

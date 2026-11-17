@@ -1,20 +1,20 @@
-# Kernpix Studio · Iker Argüelles
+# Kyxel Studio · Iker Argüelles
 
 Two pages that share one design and one repository:
 
-- **Kernpix Studio** (the home page): what the studio builds, how it works, the plans with
+- **Kyxel Studio** (the home page): what the studio builds, how it works, the plans with
   fixed prices and how to get in touch.
 - **About Iker** (`/iker/`): the projects Iker Argüelles has built, his photography, his
   competition results and his CV.
 
-**Live site:** https://ikeruuu.github.io/kernpix_studio/
-**About Iker:** https://ikeruuu.github.io/kernpix_studio/iker/
+**Live site:** https://ikeruuu.github.io/kyxel_studio/
+**About Iker:** https://ikeruuu.github.io/kyxel_studio/iker/
 
 ![Preview of the site](assets/og.png)
 
 ## What is on each page
 
-### Kernpix Studio
+### Kyxel Studio
 
 | Section | What it shows |
 |---|---|
@@ -24,7 +24,7 @@ Two pages that share one design and one repository:
 | How we work | The five steps from the first call to the support after delivery |
 | Plans and prices | Three closed plans, the monthly maintenance, fixed-price extras and custom quotes |
 | Questions | Payment, ownership and changes after delivery |
-| Contact | Email and LinkedIn, next to the Kernpix "K" in 3D |
+| Contact | Email and LinkedIn, next to the Kyxel "K" in 3D |
 
 ### About Iker
 
@@ -60,9 +60,9 @@ full-screen wipe.
 ## Files
 
 ```
-index.html            Kernpix Studio page: markup and fixed texts (EN and ES)
+index.html            Kyxel Studio page: markup and fixed texts (EN and ES)
 iker/index.html       About Iker page: markup, fixed texts and the CV
-css/studio.css        Styles of the Kernpix Studio page (dark)
+css/studio.css        Styles of the Kyxel Studio page (dark)
 css/site.css          Styles of the About Iker page (light)
 js/studio-data.js     Studio content: plans, prices, steps, questions, demos, request tracer
 js/studio.js          Studio behaviour: loading screen, demos, tracer, plans, scroll effects
@@ -110,5 +110,5 @@ DNS record GitHub asks for. Then update the three absolute addresses at the top 
 
 ## Rights
 
-© Iker Argüelles. The photographs, clips, texts and the Kernpix Studio logo are not
+© Iker Argüelles. The photographs, clips, texts and the Kyxel Studio logo are not
 licensed for reuse. Ask first: arguellesiker@gmail.com
